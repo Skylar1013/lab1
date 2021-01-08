@@ -11,7 +11,7 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-body {
+.body {
      border: 1px dotted gray;
      padding: 20px;
 }
@@ -31,4 +31,20 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+.project{
+     background-color: violet;
+     margin-left:20px;
+}
+
+img.thumbnail{
+     width:150px;
+     height: 140px;
+     border: 5px solid #434343
+}
+
+.contact-info{
+     font-size: 10pt;
+     color:#cccccc;
 }
